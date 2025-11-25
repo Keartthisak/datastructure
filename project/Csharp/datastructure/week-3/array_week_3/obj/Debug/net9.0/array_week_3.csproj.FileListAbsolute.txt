@@ -1,0 +1,14 @@
+D:\project\Csharp\datastructure\week-3\array_week_3\bin\Debug\net9.0\array_week_3.exe
+D:\project\Csharp\datastructure\week-3\array_week_3\bin\Debug\net9.0\array_week_3.deps.json
+D:\project\Csharp\datastructure\week-3\array_week_3\bin\Debug\net9.0\array_week_3.runtimeconfig.json
+D:\project\Csharp\datastructure\week-3\array_week_3\bin\Debug\net9.0\array_week_3.dll
+D:\project\Csharp\datastructure\week-3\array_week_3\bin\Debug\net9.0\array_week_3.pdb
+D:\project\Csharp\datastructure\week-3\array_week_3\obj\Debug\net9.0\array_week_3.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\Csharp\datastructure\week-3\array_week_3\obj\Debug\net9.0\array_week_3.AssemblyInfoInputs.cache
+D:\project\Csharp\datastructure\week-3\array_week_3\obj\Debug\net9.0\array_week_3.AssemblyInfo.cs
+D:\project\Csharp\datastructure\week-3\array_week_3\obj\Debug\net9.0\array_week_3.csproj.CoreCompileInputs.cache
+D:\project\Csharp\datastructure\week-3\array_week_3\obj\Debug\net9.0\array_week_3.dll
+D:\project\Csharp\datastructure\week-3\array_week_3\obj\Debug\net9.0\refint\array_week_3.dll
+D:\project\Csharp\datastructure\week-3\array_week_3\obj\Debug\net9.0\array_week_3.pdb
+D:\project\Csharp\datastructure\week-3\array_week_3\obj\Debug\net9.0\array_week_3.genruntimeconfig.cache
+D:\project\Csharp\datastructure\week-3\array_week_3\obj\Debug\net9.0\ref\array_week_3.dll
