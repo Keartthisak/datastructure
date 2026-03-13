@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>แก้ไขคะแนน</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    background:#e6f2ff;
+    text-align:center;
+}
+
+.container{
+    background:white;
+    width:350px;
+    margin:auto;
+    margin-top:50px;
+    padding:20px;
+    border-radius:10px;
+}
+
+input{
+    padding:8px;
+    margin:8px;
+}
+
+button{
+    padding:8px 12px;
+    background:#3399ff;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>แก้ไขข้อมูล</h2>
+
+<form action="/update/{{id}}" method="post">
+
+<input type="text" name="name" value="{{student.name}}" required><br>
+
+<input type="number" name="sid" value="{{student.sid}}" required><br>
+
+<input type="text" name="subject" value="{{student.subject}}" required><br>
+
+<input type="number" name="score" value="{{student.score}}" required><br>
+
+<button type="submit">บันทึก</button>
+
+</form>

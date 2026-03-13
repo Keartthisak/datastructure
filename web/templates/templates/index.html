@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>โปรแกรมบันทึกคะแนน</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    background:#e6f2ff;
+    text-align:center;
+}
+
+h1{
+    color:#0066cc;
+}
+
+.container{
+    background:white;
+    width:400px;
+    margin:auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px #b3d9ff;
+}
+
+input{
+    padding:8px;
+    margin:5px;
+}
+
+button{
+    padding:8px 12px;
+    background:#3399ff;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+
+table{
+    margin:auto;
+    margin-top:20px;
+    border-collapse: collapse;
+}
+
+td,th{
+    border:1px solid #99ccff;
+    padding:8px 15px;
+}
+
+th{
+    background:#cce6ff;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    padding:5px 10px;
+    border-radius:4px;
+}
+
+.edit{
+    background:#4CAF50;
+}
+
+.delete{
+    background:#f44336;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>📘 โปรแกรมบันทึกคะแนนสอบ/งาน</h1>
+
+</table>
+</body>
+</html>
+<form action="/add" method="post">
+
+<input type="text" name="name" placeholder="ชื่อนักเรียน" required>
+
+<input type="number" name="sid" placeholder="รหัสนักศึกษา" required>
+
+<input type="text" name="subject" placeholder="รายวิชา" required>
+
+<input type="number" name="score" placeholder="คะแนน" required>
+
+<button type="submit">เพิ่ม</button>
+
+</form>
+
+</div>
+
+<table>
+
+<tr>
+<th>ชื่อ</th>
+<th>รหัสนักศึกษา</th>
+<th>รายวิชา</th> 
+<th>คะแนน</th>
+<th>เกรด</th>
+<th>จัดการ</th>
+</tr>
+
+{% for s in scores %}
+<tr>
+<td>{{s.name}}</td>
+<td>{{s.sid}}</td>
+<td>{{s.subject}}</td>
+<td>{{s.score}}</td>
+<td>{{s.grade}}</td>
+<td>
+<a class="edit" href="/edit/{{loop.index0}}">แก้ไข</a>
+<a class="delete" href="/delete/{{loop.index0}}">ลบ</a>
+</td>
+</tr>
+{% endfor %}
+
