@@ -94,4 +94,12 @@ def index():
 
     conn.close()
 
+
     return render_template("index.html", scores=scores)
+@app.route("/")
+def home():
+    owner = "เกียรติศักดิ์ ฮวบพระ"
+    return render_template("index.html", owner=owner)
+
+if __name__ == "__main__":
+    app.run(debug=True)
